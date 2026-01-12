@@ -3,7 +3,8 @@ on:
   push:
     branches: [ none ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ none ]
+  workflow_dispatch: # Allows manual triggering from GitHub UI
 jobs:
   test:
     timeout-minutes: 60

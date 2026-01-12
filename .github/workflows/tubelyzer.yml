@@ -1,4 +1,4 @@
-name: Tubelyzer Keep-Alive
+name: Tubelyzer Tests
 on:
   schedule:
     - cron: '30 2 * * *'

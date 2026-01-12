@@ -1,0 +1,88 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "0.0.0",
+  "reportId": "b1b76809-f0bb-4c6a-9449-c2a2f8ebb467",
+  "timestamp": "2026-01-12T10:22:42.721Z",
+  "generatedBy": "playwright-ctrf-json-reporter",
+  "results": {
+    "tool": {
+      "name": "playwright"
+    },
+    "summary": {
+      "tests": 3,
+      "passed": 3,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1768213362784,
+      "stop": 1768213364109,
+      "suites": 0
+    },
+    "tests": [
+      {
+        "name": "should execute database query successfully",
+        "status": "passed",
+        "duration": 173,
+        "start": 1768213363,
+        "stop": 1768213363,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "D:\\Github\\playwright-ts-test\\e2e\\UI\\Projects\\tubelyzer\\dbHealth.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > UI\\Projects\\tubelyzer\\dbHealth.spec.ts > Database Health Check",
+        "attachments": [],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "should verify database connection",
+        "status": "passed",
+        "duration": 136,
+        "start": 1768213363,
+        "stop": 1768213363,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "D:\\Github\\playwright-ts-test\\e2e\\UI\\Projects\\tubelyzer\\dbHealth.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > UI\\Projects\\tubelyzer\\dbHealth.spec.ts > Database Health Check",
+        "attachments": [],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "should retrieve record count",
+        "status": "passed",
+        "duration": 148,
+        "start": 1768213363,
+        "stop": 1768213363,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "D:\\Github\\playwright-ts-test\\e2e\\UI\\Projects\\tubelyzer\\dbHealth.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > UI\\Projects\\tubelyzer\\dbHealth.spec.ts > Database Health Check",
+        "attachments": [],
+        "stdout": [],
+        "stderr": [],
+        "extra": {
+          "annotations": []
+        }
+      }
+    ]
+  }
+}

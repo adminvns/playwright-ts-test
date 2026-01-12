@@ -32,6 +32,10 @@ jobs:
         DB_PRIMARY_KEY: ${{ secrets.DB_PRIMARY_KEY }}
       run: npm run test:keepalive
       
+    - name: Publish Test Summary Results
+      if: always()
+      run: npx github-actions-ctrf ctrf/ctrf-report.json
+      
     - name: Upload test results
       uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}

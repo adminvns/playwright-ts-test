@@ -6,7 +6,8 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.0",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "playwright-ctrf-json-reporter": "^0.0.27"
   },
   "scripts": {
     "test": "playwright test --project=chromium --headed",
